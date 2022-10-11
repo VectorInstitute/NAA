@@ -1,0 +1,17 @@
+# Demo
+
+This folder includes notebooks to run the demos for the following components:
+  1. Intent Identification
+  2. Passage Retreival
+  3. Response Generation
+  4. End-to-End Pipeline for MSMARCO model tested on Eli5 dataset
+  5. End-to-End Pipeline for MSMARCO model fine-tuned and tested on Eli5 dataset
+  
+  ## Virtual Environment Setup 
+
+  ```bash
+  python -m venv venv
+  source venv/bin/activate
+  python -m pip install -r requirements.txt
+  ```
+  
