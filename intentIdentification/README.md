@@ -1,65 +1,11 @@
 # Conversational AI
 
 <!-- PROJECT LOGO -->
-<br />
-<p align="center">
-
-  <h3 align="center">Intent Identificaiton</h3>
-
-  <p align="center">
-    A tool for you to identify the intents in a question. 
-    <br />
-    <a href="https://github.com/VectorInstitute/ConversationalAI/tree/master"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/VectorInstitute/ConversationalAI/tree/master">View Demo</a>
-    ·
-    <a href="https://github.com/VectorInstitute/ConversationalAI/tree/master/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/VectorInstitute/ConversationalAI/tree/master/issues">Request Feature</a>
-  </p>
-</p>
-
-
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about-the-project)
-* [Getting Started](#getting-started)
-  * [Installation](#installation)
-  * [Data Format](#data-format)
-  * [Training the Model](#training-the-model)
-  * [Interactive and Visualization](#interactive-and-visualization)
-  * [Evaluation](#evaluation)
-* [Contributing](#contributing)
-* [Citations](#citations)
-* [Contact](#contact)
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Identifying and understanding the intent of customers’ query and input plays an important role in the performance of goal-oriented dialogue systems. In this repo, we frame the backend of Agent Assistant as a multi-class classification model that estimates customer’s intentions. There are two approaches to this problem: pre-defined classes and pre-train, prompt, predict. For the Pre-Defined Classes Model, we have a multi class classification problem. Meanwhile, Pre-train, Prompt, Predict is treated as a masked language modelling problem. In addition, we have conducted few-shot learning on top of the pre-defined classes model. The pre-defined classes model is treated as a feature extractor. Then, we used it to test on another dataset that is in a similar domain. 
-
-<p align="center">
-  <a href="https://github.com/VectorInstitute/ConversationalAI/tree/main/intentIdentification">
-    <img src="images/model_architecture.png" alt="architecture" width="600" height="300">
-  </a>
-</p>
-<p align="center">
-  Figure 1. Pre-defined Classes Intent Identification (Left) Pre-train, Prompt, Predict Intent Identification (Right) 
-</p>
-<p align="center">
-  <a href="https://github.com/VectorInstitute/ConversationalAI/tree/main/intentIdentification">
-    <img src="images/fewshot.png" alt="architecture" width="500" height="350">
-  </a>
-</p>
-<p align="center">
-  Figure 2. Few-Shot Learning for Text Classification 
-</p>
-
+Identifying and understanding the intent of customers’ query and input plays an important role in the performance of goal-oriented NAA for customer service support. In this repo, we frame the backend of the Intent Identification module of NAA as a classfier that estimates customer’s intentions. The binary classifier identifies whether the question is general or request from the user. The multi-classifier is a query encoder that classifies queries into N classes. 
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -69,7 +15,7 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 1. Clone the repo
 ```sh
-git clone https://github.com/VectorInstitute/ConversationalAI.git
+git clone xxx
 ```
 2. Create and activate virtual environment 
 ```sh
@@ -102,9 +48,7 @@ This project composed of few fine tuning scripts.
 
 `predefinedClassification/fewshot_text_classification_with_BERT.ipynb` is for few-shot learning classification. 
 
-`pretrainPromptPredict/MLM-OOD.ipynb` is for intent masked language modeling classification.  
-
-`generalClassification/general_text_classification_with_BERT.ipynb` is a binary classification for identifying whether the question is general or request from the user. 
+`binary_classification/general_text_classification_with_BERT.ipynb` is a binary classification for identifying whether the question is general or request from the user. 
 
 
 To convert Jupyter notebook to python script. We can do 
