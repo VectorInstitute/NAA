@@ -44,9 +44,9 @@ I want to have multiple currencies in my account if possible.		  | fiat_currency
 ### Training the Model
 This project composed of few fine tuning scripts. 
 
-`predefinedClassification/text_classification_with_BERT.ipynb` is for multi-class classification. 
+`multi_classification/text_classification_with_BERT.ipynb` is for multi-class classification. 
 
-`predefinedClassification/fewshot_text_classification_with_BERT.ipynb` is for few-shot learning classification. 
+`multi_classification/fewshot_text_classification_with_BERT.ipynb` is for few-shot learning classification. 
 
 `binary_classification/general_text_classification_with_BERT.ipynb` is a binary classification for identifying whether the question is general or request from the user. 
 
