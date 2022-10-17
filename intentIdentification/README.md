@@ -1,9 +1,5 @@
-# Conversational AI
 
-<!-- PROJECT LOGO -->
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Intent Identification
 
 Identifying and understanding the intent of customers’ query and input plays an important role in the performance of goal-oriented NAA for customer service support. In this repo, we frame the backend of the Intent Identification module of NAA as a classfier that estimates customer’s intentions. The binary classifier identifies whether the question is general or request from the user. The multi-classifier is a query encoder that classifies queries into N classes. 
 
