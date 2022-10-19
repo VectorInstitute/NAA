@@ -1,5 +1,14 @@
-# aieng-template
-aieng template repo, the static code checker runs on python3.8
+# Neural Agent Assistant framework for Customer Service Support
+The framework features three high-level components: (1) Intent Identification, (2) Context Retrieval, and (3) Response Generation. Though designed as parts in a pipeline in generating a natural language response to customer questions, the output from any given component can nonetheless be transferred back to the human agent when needed.
+
+<p align="center">
+  <a href="https://github.com/VectorInstitute/ConversationalAI/tree/main/passageretrieval">
+    <img src="images/PR_pipeline.png" alt="pipeline" width="500" height="150">
+  </a>
+</p>
+<p align="center">
+  Figure 1. Neural Agent Assistant framework
+</p>
 
 # Installing dependencies
 ```
