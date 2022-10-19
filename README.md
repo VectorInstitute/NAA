@@ -3,7 +3,7 @@ The framework features three high-level components: (1) Intent Identification, (
 
 <p align="center">
   <a href="https://github.com/VectorInstitute/NAA/blob/main/naa.jpg">
-    <img src="images/PR_pipeline.png" alt="pipeline" width="500" height="150">
+    <img src="https://github.com/VectorInstitute/NAA/blob/main/naa.jpg" alt="pipeline" width="500" height="150">
   </a>
 </p>
 <p align="center">
