@@ -19,6 +19,10 @@ pip install -r requirements.txt
 # Data 
 You can upload data from <a href="https://drive.google.com/drive/folders/1Kp7yYPqAfBFZ4ff7YCV7c4RwUSPkamdj?usp=sharing"> here. 
 
+# Checkpoints 
+You can upload checkpoints from <a href="https://drive.google.com/drive/folders/1Kp7yYPqAfBFZ4ff7YCV7c4RwUSPkamdj?usp=sharing
+"> here. 
+
 # using pre-commit hooks
 To check your code at commit time
 ```
