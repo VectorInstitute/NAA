@@ -3,6 +3,8 @@
 
 The aim of passage retrieval is to find a passage that is most semantically similar to the input question or statement. The passage acts as supporting knowledge, which helps generate better responses. 
 
+Please download supplementary materials including checkpoints and data from [here](https://drive.google.com/drive/folders/1KLmeeecGL6KK1An_jDuhLnglG-qyAEc5?usp=sharing). Some formatted data can be downloaded from [here](https://drive.google.com/drive/folders/1tQvW245OgOlFiOUq7dgoZy6Gb1TIkXQa?usp=sharing).
+
 <p align="center">
   <a href="https://github.com/VectorInstitute/ConversationalAI/tree/main/passageretrieval">
     <img src="images/PR_pipeline.png" alt="pipeline" width="500" height="150">
