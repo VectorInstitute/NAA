@@ -57,6 +57,7 @@ jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
 ### Interactive and Visualization
 
 The interactive script is `interactive.ipynb`.
+For the binary classification the checkpoint can be downloaded from [here](https://drive.google.com/file/d/1Asg4vsnyUThZ3sjW9ricYcnZ1i3nXqTq/view?usp=sharing). 
 
 
 <!-- CONTACT -->
