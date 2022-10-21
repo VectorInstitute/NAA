@@ -11,7 +11,7 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 1. Clone the repo
 ```sh
-git clone xxx
+git clone git@github.com:VectorInstitute/NAA.git
 ```
 2. Create and activate virtual environment 
 ```sh
