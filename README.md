@@ -3,6 +3,7 @@ Neural Agent Assistant framework includes tools and artifacts rooted in deep lea
 
 Stephen Obadinma, ..., [Bringing the State-of-the-Art to Customers: A Neural Agent Assistant Framework for Customer Service Suppor](ref), EMNLP.
 
+## An Overview
 The framework features three high-level components: (1) Intent Identification, (2) Context Retrieval, and (3) Response Generation. Though designed as parts in a pipeline in generating a natural language response to customer questions, the output from any given component can nonetheless be transferred back to the human agent when needed.
 
 <p align="center">
@@ -14,13 +15,20 @@ The framework features three high-level components: (1) Intent Identification, (
   Figure 1. Neural Agent Assistant framework
 </p>
 
-# Installing dependencies
+## Features
+1. Intent Identification
+2. Context Retrieval 
+3. Response Generation
+
+## Resources
+Checkpoints and datasets can be downloaded from [here](https://drive.google.com/drive/folders/11HIhryVjfQfq-vmBo68uSTLQhKWcbRHn?usp=sharing).
+## Installing dependencies
 ```
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-# using pre-commit hooks
+## using pre-commit hooks
 To check your code at commit time
 ```
 pre-commit install
