@@ -122,31 +122,7 @@ Below are the results for the bi-encoder. Four pre-trained models for dense pass
   Figure 6. Re-ranking Results
 </p>
 
-<!-- Citations --> 
-## References
-```bibtex
-@inproceedings{reimers-2020-Curse_Dense_Retrieval,
-    title = "The Curse of Dense Low-Dimensional Information Retrieval for Large Index Sizes",
-    author = "Reimers, Nils  and Gurevych, Iryna",
-    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
-    month = "8",
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://arxiv.org/abs/2012.14210",
-    pages = "605--611",
-}
 
-@inproceedings{reimers-2019-sentence-bert,
-    title = "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
-    author = "Reimers, Nils and Gurevych, Iryna",
-    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
-    month = "11",
-    year = "2019",
-    publisher = "Association for Computational Linguistics",
-    url = "http://arxiv.org/abs/1908.10084",
-}
-```
 
 <!-- CONTACT -->
 ## Contact
