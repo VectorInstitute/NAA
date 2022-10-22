@@ -1,8 +1,8 @@
-# ConversationalAI: Question-Answering
+# ConversationalAI: Response Generation
 
 Author: Shirley Wang, 2021
 
-The Task-Guided Question-Answering 
+The Task-Guided Response Generation 
 involves inputting a context and a question, and having the model output the answer to the question by extracting it from the context. We have decided to combine these tasks due to how training purely on dialogue datasets does not provide the model knowledge needed to correctly answer questions, and being able to fully finetune a giant GPT3 for specific needs is costly and not very accessible. By taking advantage of how question-answering models simply extract answers from a context, we can use that to provide answers to customer queries in our model. 
 
 The best dataset to train the model on would be a question-answering dataset where all answers are in a human dialogue full sentence format, instead of purely extractive answers. The one we found was the MS Marco dataset, which provides answers as full sentences, and most answers tried to not reuse language from the context.
