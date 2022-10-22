@@ -25,8 +25,8 @@ python -m torch.distributed.run \
         --model_type microsoft/DialoGPT-large \
         --train_batch_size 1 \
         --valid_batch_size 5 \
-        --train_dataset_path /ssd003/projects/aieng/conversational_ai/data/MSMARCO/marco_train_tokenized.json \
-        --valid_dataset_path /ssd003/projects/aieng/conversational_ai/data/MSMARCO/marco_valid_tokenized.json \
+        --train_dataset_path data/MSMARCO/marco_train_tokenized.json \
+        --valid_dataset_path data/MSMARCO/marco_valid_tokenized.json \
         --max_len 300 \
         --eval_before_start \
         --num_gpus 4
